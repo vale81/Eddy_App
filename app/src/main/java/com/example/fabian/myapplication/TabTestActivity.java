@@ -15,7 +15,8 @@ public class TabTestActivity extends Activity {
     ActionBar.Tab tab1, tab2, tab3;
     Fragment fragmentTab1 = new FragmentTab1();
     Fragment fragmentTab2 = new FragmentTab2();
-    Fragment fragmentTab3 = new FragmentTab3();
+    Fragment fragmentTab3= new SettingsFragment();
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab_test);
@@ -30,6 +31,7 @@ public class TabTestActivity extends Activity {
         tab1.setTabListener(new MyTabListener(fragmentTab1));
         tab2.setTabListener(new MyTabListener(fragmentTab2));
         tab3.setTabListener(new MyTabListener(fragmentTab3));
+
 
         actionBar.addTab(tab1);
         actionBar.addTab(tab2);
