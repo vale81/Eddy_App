@@ -10,6 +10,11 @@
         android:title="Person"
         android:summary="Geben Sie Daten zu Ihrer Person an">
 
+        <EditTextPreference
+            android:title="Name"
+            android:summary="Geben Sie Ihren Namen an"
+            android:key="user_name" />
+
         <ListPreference
             android:title="Mahlzeit Angabe"
             android:summary="Angabe der Mahlzeit in KH oder BE"
@@ -19,4 +24,13 @@
             android:entryValues="@array/mahlzeit_angabe"
             android:defaultValue="KH"/>
     </PreferenceScreen>
+    <Preference
+        android:title="Reset"
+        android:summary="Löschen sie alle angegebenen Daten">
+        <intent
+            android:targetPackage="com.example.fabian.myapplication"
+            android:targetClass="com.example.fabian.myapplication.EintragFormular"/>
+    </Preference>
+
+
 </PreferenceScreen>
