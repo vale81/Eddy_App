@@ -7,5 +7,6 @@
     <string name="Eintrag">Einträge</string>
     <string name="Grafik">Grafik</string>
     <string name="Einstellungen">Einstellungen</string>
+    <string name="Button_AddNew">Neuer Eintrag</string>
 
 </resources>

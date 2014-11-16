@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class FragmentTab1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState){
-        View view = inflater.inflate(R.layout.tab1, container, false);
+        View view = inflater.inflate(R.layout.eintrag_tab, container, false);
         TextView textview = (TextView) view.findViewById(R.id.txtOne);
         textview.setText(R.string.Eintrag);
         return view;
