@@ -8,5 +8,11 @@
     <string name="Grafik">Grafik</string>
     <string name="Einstellungen">Einstellungen</string>
     <string name="Button_AddNew">Neuer Eintrag</string>
+    <string name="BZ">BZ-Wert</string>
+    <string name="bz_wert_textview">BZ-Wert</string>
+    <string name="eintrag_textview">Eintrag</string>
+    <string name="bz_wert_hint">Ihr BZ-Wert</string>
+    <string name="save_button_eintrag">Save</string>
+    <string name="BZ_Data_test_view">BZ DATA</string>
 
 </resources>

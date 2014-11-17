@@ -27,4 +27,5 @@
         android:textColor="#ffffffff"
         android:background="@android:color/holo_blue_dark"
         android:onClick="sendMessage" />
+
 </RelativeLayout>
