@@ -9,5 +9,10 @@
     <string name="Einstellungen">Einstellungen</string>
     <string name="Button_AddNew">Neuer Eintrag</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bz_wert_textview">BZ Wert</string>
+    <string name="eintrag_textview">Eintrag</string>
+    <string name="bz_wert_hint">Ihr BZ Wert</string>
+    <string name="save_button">SAVE</string>
+    <string name="bz_data_textview">BZ DATA</string>
 
 </resources>

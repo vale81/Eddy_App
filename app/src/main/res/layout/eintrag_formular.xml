@@ -47,7 +47,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/save_button_eintrag"
+        android:text="@string/save_button"
         android:id="@+id/save_button"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
@@ -58,7 +58,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/BZ_Data_test_view"
+        android:text="@string/bz_data_textview"
         android:id="@+id/bzbzbz"
         android:textSize="45sp"
         android:layout_alignBottom="@+id/save_button"
