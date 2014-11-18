@@ -1,4 +1,4 @@
-package com.example.fabian.myapplication;
+package com.example.fabian.eddy;
 
 import android.app.Activity;
 import android.database.Cursor;

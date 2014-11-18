@@ -1,4 +1,4 @@
-package com.example.fabian.myapplication;
+package com.example.fabian.eddy;
 
 import android.app.ActionBar;
 import android.app.Fragment;
