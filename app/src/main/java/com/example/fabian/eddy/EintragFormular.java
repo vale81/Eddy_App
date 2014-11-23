@@ -11,15 +11,16 @@ import android.widget.Toast;
 
 /**
  * Created by Fabian on 09.11.2014.
+ * Edit by Tim on 22.11.2014
  */
 public class EintragFormular extends Activity{
 
     private EditText usersBz;
     private Button save_Button;
-    private TextView bzdata;
 
 
-    // Um Datenbank öffnen zu können brauchen wir ein DataHandler Objekt
+
+    // Um Datenbank öffnen zu können brauchen wir ein Objekt vom Typ DataHandler
     DataHandler the_handler;
 
     @Override
@@ -32,11 +33,11 @@ public class EintragFormular extends Activity{
         usersBz = (EditText) findViewById(R.id.users_Bz);
        // init Save Button
         save_Button = (Button) findViewById(R.id.save_button);
-        // INIt test textview clickable
-        bzdata = (TextView) findViewById(R.id.bzbzbz);
 
 
 
+
+        /* Können wir benutzen für Eintrage ggf.
         bzdata.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,28 +59,21 @@ public class EintragFormular extends Activity{
 
             }
         });
-
+    */
+        /*
         save_Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String getBZWert = usersBz.getText().toString();
+                String  = usersBz.getText().toString();
                 the_handler = new DataHandler(getBaseContext());
                 the_handler.open();
-                the_handler.insertData(getBZWert, null, null, null, null, null, null);
+                the_handler.insertData(, null, null, null, null, null, null);
                 Toast.makeText(getBaseContext(), "Data inserted", Toast.LENGTH_LONG).show();
                 the_handler.closeDatabase();
             }
         });
     }
-
-    // Test BZ Übergabe NUR UM DATENBANK zu TESTEN später löschen!!!!!
-
-
-
-
-
-
-
+    */
     @Override
     protected void onStart() {
         super.onStart();
